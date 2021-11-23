@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import "../App.css";
-import Header from "./Header.js";
-import Car from "./Car";
-import { initialCars } from "../cars";
-import { additionalCars } from "../cars";
-import AddCar from "./AddCar";
+import "./App.css";
+import Header from "./components/Header.js";
+import Car from "./components/Car";
+import { additionalCars, initialCars } from "./components/cars";
+import AddCar from "./components/AddCar";
 
 class App extends Component {
   constructor() {
